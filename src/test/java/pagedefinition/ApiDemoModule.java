@@ -18,6 +18,8 @@ public class ApiDemoModule  {
 
     }
 
+    // we can mention the actions to be perfomed here or else we can just do
+    // a return of the element and validate it in the main class
     public boolean validatebutton(){
         return driver.findElement(ApiPageLocator.btn_views).isDisplayed();
 
